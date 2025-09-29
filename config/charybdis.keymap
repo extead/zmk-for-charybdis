@@ -63,7 +63,7 @@
 &trans    &trans    &trans     &trans      &trans      &trans    &trans      &trans            &trans    &trans
 &kp LGUI  &kp LALT  &kp LCTRL  &kp LSHIFT  &trans      &trans    &kp LSHIFT  &kp LEFT_CONTROL  &kp LALT  &kp LEFT_GUI
 &trans    &trans    &trans     &trans      &trans      &trans    &trans      &trans            &trans    &trans
-                    &mkp MB2   &mkp MB2    &mkp MB3    &mkp MB3  &mkp MB1
+                    &mkp MB2   &mkp MB1    &mkp MB3    &mkp MB3  &mkp MB1
             >;
         };
 

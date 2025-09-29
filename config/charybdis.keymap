@@ -42,10 +42,10 @@
 
         BASE {
             bindings = <
-&lt 7 Q  &kp W  &kp E         &kp R        &kp T        &kp Y        &kp U            &kp I      &kp O    &kp P
-&kp A    &kp S  &kp D         &kp F        &kp G        &kp H        &kp J            &kp K      &kp L    &kp SINGLE_QUOTE
-&lt 2 Z  &kp X  &kp C         &kp V        &kp B        &kp N        &kp M            &kp COMMA  &kp DOT  &lt 2 SLASH
-                &lt 3 ESCAPE  &lt 1 SPACE  &lt 6 TAB    &lt 5 ENTER  &lt 4 BACKSPACE
+&lt 7 Q         &kp W           &kp E               &kp R             &kp T        &kp Y        &kp U             &kp I               &kp O           &kp P
+&mt LEFT_GUI A  &mt LEFT_ALT S  &mt LEFT_CONTROL D  &mt LEFT_SHIFT S  &kp G        &kp H        &mt LEFT_SHIFT J  &mt LEFT_CONTROL K  &mt LEFT_ALT L  &mt LEFT_GUI SINGLE_QUOTE
+&lt 2 Z         &kp X           &kp C               &kp V             &kp B        &kp N        &kp M             &kp COMMA           &kp DOT         &lt 2 SLASH
+                                &lt 3 ESCAPE        &lt 1 SPACE       &lt 6 TAB    &lt 5 ENTER  &lt 4 BACKSPACE
             >;
         };
 

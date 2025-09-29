@@ -69,10 +69,10 @@
 
         RU_ADD {
             bindings = <
-&trans  &trans  &trans  &trans  &kp GRAVE    &trans  &trans  &trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-&trans  &trans  &trans  &trans  &trans       &trans  &trans  &trans  &trans            &kp SQT
-&trans  &trans  &trans  &trans  &trans       &trans  &trans  &trans  &trans            &trans
-                &trans  &trans  &trans       &trans  &trans
+&trans        &trans        &trans            &trans          &kp GRAVE    &trans  &trans  &trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+&kp LEFT_GUI  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &trans       &trans  &trans  &trans  &trans            &kp SQT
+&trans        &trans        &trans            &trans          &trans       &trans  &trans  &trans  &trans            &trans
+                            &trans            &trans          &trans       &trans  &trans
             >;
         };
 

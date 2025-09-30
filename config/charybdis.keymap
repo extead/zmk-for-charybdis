@@ -51,10 +51,10 @@
 
         NAV {
             bindings = <
-&trans    &trans    &trans     &trans     &trans    &trans        &trans         &trans         &trans       &trans
-&kp LGUI  &kp LALT  &kp LCTRL  &kp LSHFT  &trans    &kp CAPSLOCK  &kp LEFT       &kp DOWN       &kp UP       &kp RIGHT
-&trans    &trans    &trans     &trans     &trans    &kp INSERT    &kp HOME       &kp PAGE_DOWN  &kp PAGE_UP  &kp END
-                    &trans     &trans     &trans    &kp ENTER     &kp BACKSPACE
+&trans    &trans    &trans     &trans     &kp GRAVE    &trans        &trans         &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp SQT
+&kp LGUI  &kp LALT  &kp LCTRL  &kp LSHFT  &trans       &kp CAPSLOCK  &kp LEFT       &kp DOWN          &kp UP             &kp RIGHT
+&trans    &trans    &trans     &trans     &trans       &kp INSERT    &kp HOME       &kp PAGE_DOWN     &kp PAGE_UP        &kp END
+                    &trans     &trans     &trans       &kp ENTER     &kp BACKSPACE
             >;
         };
 
@@ -69,10 +69,10 @@
 
         RU_ADD {
             bindings = <
-&trans        &trans        &trans            &trans          &kp GRAVE    &trans  &trans  &trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-&kp LEFT_GUI  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &trans       &trans  &trans  &trans  &trans            &kp SQT
-&trans        &trans        &trans            &trans          &trans       &trans  &trans  &trans  &trans            &trans
-                            &trans            &trans          &trans       &trans  &trans
+&trans        &trans        &trans            &trans          &trans    &trans  &trans  &trans  &trans  &trans
+&kp LEFT_GUI  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &trans    &trans  &trans  &trans  &trans  &trans
+&trans        &trans        &trans            &trans          &trans    &trans  &trans  &trans  &trans  &trans
+                            &trans            &trans          &trans    &trans  &trans
             >;
         };
 
